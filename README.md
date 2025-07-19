@@ -3,7 +3,7 @@
 > Curated list of tools and plugins that help you use AI in **Vim, Neovim**, and the **Terminal**.
 
 <!-- AUTO-GENERATED-START -->
-_Last updated: 2025-07-19 23:18 UTC_
+_Last updated: 2025-07-19 23:22 UTC_
 
 ## 🚀 AI Tools for Vim, Neovim, and Terminal
 
