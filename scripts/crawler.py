@@ -45,6 +45,9 @@ def fetch_repos(tag, query, blocked):
         stars = item.get("stargazers_count", 0)
         star_str = format_star_count(stars)
 
+        if len(desc) > 200:
+            continue
+
         results.append(f"- [{full_name}]({url}) - {desc} [{tag}] ({star_str})")
     return results
 
