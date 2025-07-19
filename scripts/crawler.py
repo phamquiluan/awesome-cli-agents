@@ -5,7 +5,6 @@ import re
 MARKER_START = "<!-- AUTO-GENERATED-START -->"
 MARKER_END = "<!-- AUTO-GENERATED-END -->"
 
-# Queries expanded to capture more relevant tools
 QUERIES = {
     "Vim/Neovim": "vim OR neovim ai plugin stars:>10",
     "Terminal": "ai terminal cli OR shell OR zsh OR bash stars:>10",
@@ -13,6 +12,11 @@ QUERIES = {
 
 SEARCH_URL = "https://api.github.com/search/repositories"
 HEADERS = {"Accept": "application/vnd.github+json"}
+
+def format_star_count(stars):
+    if stars >= 1000:
+        return f"{stars // 1000}k⭐"
+    return f"{stars}⭐"
 
 def fetch_repos(tag, query):
     params = {
@@ -28,7 +32,9 @@ def fetch_repos(tag, query):
         name = item["full_name"]
         desc = item.get("description", "").strip()
         url = item["html_url"]
-        results.append(f"- [{name}]({url}) - {desc} [{tag}]")
+        stars = item.get("stargazers_count", 0)
+        star_str = format_star_count(stars)
+        results.append(f"- [{name}]({url}) - {desc} [{tag}] ({star_str})")
     return results
 
 def generate_autosection(entries):
