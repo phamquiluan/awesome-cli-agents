@@ -3,3 +3,6 @@ cirosantilli/china-dictatorship
 LemonIT66/idea_activate
 CasterWx/AntzOS
 AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin
+NimaNzrii/comfyui-photoshop
+WPeace-HcH/WPeChatGPT
+isekaidev/stable.art
