@@ -1,51 +1,54 @@
 import requests
 from datetime import datetime
+import re
 
-README_HEADER = """# Awesome Vim AI Agents 🧠📝
+MARKER_START = "<!-- AUTO-GENERATED-START -->"
+MARKER_END = "<!-- AUTO-GENERATED-END -->"
 
-> Curated list of tools and plugins that help you use AI in **Vim, Neovim**, and the **Terminal**.
-
-_Last updated: {date}_
-
-## 🚀 AI Tools for Vim, Neovim, and Terminal
-"""
-
+# Queries expanded to capture more relevant tools
 QUERIES = {
-    "Vim/Neovim": "ai vim OR neovim plugin in:description language:vim stars:>10",
-    "Terminal": "ai terminal shell zsh bash in:description stars:>10"
+    "Vim/Neovim": "vim OR neovim ai plugin stars:>10",
+    "Terminal": "ai terminal cli OR shell OR zsh OR bash stars:>10",
 }
 
 SEARCH_URL = "https://api.github.com/search/repositories"
+HEADERS = {"Accept": "application/vnd.github+json"}
 
 def fetch_repos(tag, query):
-    headers = {"Accept": "application/vnd.github+json"}
     params = {
         "q": query,
         "sort": "stars",
         "order": "desc",
         "per_page": 30,
     }
-    response = requests.get(SEARCH_URL, headers=headers, params=params)
-    items = response.json().get("items", [])
+    resp = requests.get(SEARCH_URL, headers=HEADERS, params=params)
+    items = resp.json().get("items", [])
     results = []
     for item in items:
         name = item["full_name"]
         desc = item.get("description", "").strip()
         url = item["html_url"]
-        line = f"- [{name}]({url}) - {desc} [{tag}]"
-        results.append(line)
+        results.append(f"- [{name}]({url}) - {desc} [{tag}]")
     return results
 
+def generate_autosection(entries):
+    timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+    section = f"_Last updated: {timestamp}_\n\n## 🚀 AI Tools for Vim, Neovim, and Terminal\n\n"
+    section += "\n".join(sorted(set(entries)))
+    return section
+
 def update_readme(entries):
-    with open("README.md", "w") as f:
-        header = README_HEADER.format(date=datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"))
-        f.write(header + "\n")
-        for entry in sorted(set(entries)):
-            f.write(entry + "\n")
+    with open("README.md", "r", encoding="utf-8") as f:
+        content = f.read()
+
+    new_auto = f"{MARKER_START}\n{generate_autosection(entries)}\n{MARKER_END}"
+    updated = re.sub(f"{MARKER_START}.*?{MARKER_END}", new_auto, content, flags=re.DOTALL)
+
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(updated)
 
 if __name__ == "__main__":
     all_entries = []
     for tag, query in QUERIES.items():
-        entries = fetch_repos(tag, query)
-        all_entries.extend(entries)
+        all_entries += fetch_repos(tag, query)
     update_readme(all_entries)
