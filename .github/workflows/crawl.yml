@@ -1,0 +1,33 @@
+name: Daily Plugin Crawler
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Run daily at midnight UTC
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+
+    - name: Run crawler script
+      run: python scripts/crawler.py
+
+    - name: Commit and push changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add README.md
+        git commit -m "🤖 Update README with latest Vim AI plugins" || echo "No changes"
+        git push
