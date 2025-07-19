@@ -1,9 +1,10 @@
 import requests
-from datetime import datetime
 import re
+from datetime import datetime
 
 MARKER_START = "<!-- AUTO-GENERATED-START -->"
 MARKER_END = "<!-- AUTO-GENERATED-END -->"
+BLOCKLIST_FILE = "block-list.txt"
 
 QUERIES = {
     "Vim/Neovim": "vim OR neovim ai plugin stars:>10",
@@ -13,12 +14,17 @@ QUERIES = {
 SEARCH_URL = "https://api.github.com/search/repositories"
 HEADERS = {"Accept": "application/vnd.github+json"}
 
-def format_star_count(stars):
-    if stars >= 1000:
-        return f"{stars // 1000}k⭐"
-    return f"{stars}⭐"
+def load_blocklist():
+    try:
+        with open(BLOCKLIST_FILE, "r", encoding="utf-8") as f:
+            return set(line.strip() for line in f if line.strip())
+    except FileNotFoundError:
+        return set()
 
-def fetch_repos(tag, query):
+def format_star_count(stars):
+    return f"{stars // 1000}k⭐" if stars >= 1000 else f"{stars}⭐"
+
+def fetch_repos(tag, query, blocked):
     params = {
         "q": query,
         "sort": "stars",
@@ -28,13 +34,18 @@ def fetch_repos(tag, query):
     resp = requests.get(SEARCH_URL, headers=HEADERS, params=params)
     items = resp.json().get("items", [])
     results = []
+
     for item in items:
-        name = item["full_name"]
-        desc = item.get("description", "").strip()
+        full_name = item["full_name"]
+        if full_name in blocked:
+            continue  # Skip blocked repositories
+
+        desc = item.get("description", "").strip().replace("\n", " ")
         url = item["html_url"]
         stars = item.get("stargazers_count", 0)
         star_str = format_star_count(stars)
-        results.append(f"- [{name}]({url}) - {desc} [{tag}] ({star_str})")
+
+        results.append(f"- [{full_name}]({url}) - {desc} [{tag}] ({star_str})")
     return results
 
 def generate_autosection(entries):
@@ -54,7 +65,8 @@ def update_readme(entries):
         f.write(updated)
 
 if __name__ == "__main__":
+    blocklist = load_blocklist()
     all_entries = []
     for tag, query in QUERIES.items():
-        all_entries += fetch_repos(tag, query)
+        all_entries += fetch_repos(tag, query, blocklist)
     update_readme(all_entries)
