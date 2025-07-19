@@ -1,10 +1,11 @@
 import requests
 import re
+import os
 from datetime import datetime
 
 MARKER_START = "<!-- AUTO-GENERATED-START -->"
 MARKER_END = "<!-- AUTO-GENERATED-END -->"
-BLOCKLIST_FILE = "block-list.txt"
+BLOCKLIST_FILE = os.path.join(os.path.dirname(__file__), "block-list.txt")
 
 QUERIES = {
     "Vim/Neovim": "vim OR neovim ai plugin stars:>10",
