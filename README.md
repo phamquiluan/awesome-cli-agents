@@ -1,10 +1,12 @@
-# Awesome Vim AI Agents 🧠🎯
+# Awesome Vim AI Agents 🧠📝
 
-> A curated list of AI-powered Vim/Neovim tools and plugins.
+> Curated list of tools and plugins that help you use AI in **Vim, Neovim**, and the **Terminal**.
 
-_Last updated: 2025-07-19 23:10 UTC_
+_Last updated: 2025-07-19 23:12 UTC_
 
-## 🚀 Plugins & Tools
+## 🚀 AI Tools for Vim, Neovim, and Terminal
 
-- [madox2/vim-ai](https://github.com/madox2/vim-ai) - AI-powered code assistant for Vim. OpenAI and ChatGPT plugin for Vim and Neovim.
-- [dense-analysis/neural](https://github.com/dense-analysis/neural) - AI Vim/Neovim code generation plugin (OpenAI, ChatGPT, and more)
+- [dense-analysis/neural](https://github.com/dense-analysis/neural) - AI Vim/Neovim code generation plugin (OpenAI, ChatGPT, and more) [Vim/Neovim]
+- [greeschenko/vim9-ollama](https://github.com/greeschenko/vim9-ollama) - Local driven AI assistent plugin written in the cutting-edge Vim9 script and powered by ollama [Vim/Neovim]
+- [jayli/nvim-ai-coding](https://github.com/jayli/nvim-ai-coding) - nvim ai coding plugin [Vim/Neovim]
+- [pasky/claude.vim](https://github.com/pasky/claude.vim) - Claude vim plugin for AI pair programming - a hacker's gateway to LLMs [Vim/Neovim]
