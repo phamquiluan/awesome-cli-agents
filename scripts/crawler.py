@@ -59,7 +59,6 @@ def generate_autosection(entries):
     return section
 
 def update_readme(entries):
-    readme_path = os.path.join(os.path.dirname(__file__), "..", "README.md")
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
 
