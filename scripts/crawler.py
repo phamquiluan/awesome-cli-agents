@@ -65,7 +65,7 @@ def update_readme(entries):
     new_auto = f"{MARKER_START}\n{generate_autosection(entries)}\n{MARKER_END}"
     updated = re.sub(f"{MARKER_START}.*?{MARKER_END}", new_auto, content, flags=re.DOTALL)
 
-    with open(readme_path, "w", encoding="utf-8") as f:
+    with open("README.md", "w", encoding="utf-8") as f:
         f.write(updated)
 
 if __name__ == "__main__":
