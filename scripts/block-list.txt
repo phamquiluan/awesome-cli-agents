@@ -8,3 +8,13 @@ WPeace-HcH/WPeChatGPT
 isekaidev/stable.art
 tuneflow/tuneflow-py
 royshil/obs-localvocal
+Blarc/ai-commits-intellij-plugin
+KindaBrazy/LynxHub
+Nikorasu/LiveWhisper
+intel/openvino-ai-plugins-gimp
+intel/openvino-plugins-ai-audacity
+koishijs/novelai-bot
+mahaloz/DAILA
+marcusbuffett/command-line-chess
+nhaouari/obsidian-textgenerator-plugin
+your-papa/obsidian-Smart2Brain
