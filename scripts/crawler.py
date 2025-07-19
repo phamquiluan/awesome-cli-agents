@@ -1,10 +1,11 @@
 import requests
 import re
+import os
 from datetime import datetime
 
 MARKER_START = "<!-- AUTO-GENERATED-START -->"
 MARKER_END = "<!-- AUTO-GENERATED-END -->"
-BLOCKLIST_FILE = "block-list.txt"
+BLOCKLIST_FILE = os.path.join(os.path.dirname(__file__), "block-list.txt")
 
 QUERIES = {
     "Vim/Neovim": "vim OR neovim ai plugin stars:>10",
@@ -58,13 +59,14 @@ def generate_autosection(entries):
     return section
 
 def update_readme(entries):
-    with open("README.md", "r", encoding="utf-8") as f:
+    readme_path = os.path.join(os.path.dirname(__file__), "..", "README.md")
+    with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
 
     new_auto = f"{MARKER_START}\n{generate_autosection(entries)}\n{MARKER_END}"
     updated = re.sub(f"{MARKER_START}.*?{MARKER_END}", new_auto, content, flags=re.DOTALL)
 
-    with open("README.md", "w", encoding="utf-8") as f:
+    with open(readme_path, "w", encoding="utf-8") as f:
         f.write(updated)
 
 if __name__ == "__main__":
