@@ -1,25 +1,29 @@
 import requests
 from datetime import datetime
 
-README_HEADER = """# Awesome Vim AI Agents 🧠🎯
+README_HEADER = """# Awesome Vim AI Agents 🧠📝
 
-> A curated list of AI-powered Vim/Neovim tools and plugins.
+> Curated list of tools and plugins that help you use AI in **Vim, Neovim**, and the **Terminal**.
 
 _Last updated: {date}_
 
-## 🚀 Plugins & Tools
+## 🚀 AI Tools for Vim, Neovim, and Terminal
 """
 
-GITHUB_QUERY = "vim+neovim+ai+plugin in:description stars:>10"
+QUERIES = {
+    "Vim/Neovim": "ai vim OR neovim plugin in:description language:vim stars:>10",
+    "Terminal": "ai terminal shell zsh bash in:description stars:>10"
+}
+
 SEARCH_URL = "https://api.github.com/search/repositories"
 
-def fetch_github_plugins():
+def fetch_repos(tag, query):
     headers = {"Accept": "application/vnd.github+json"}
     params = {
-        "q": GITHUB_QUERY,
+        "q": query,
         "sort": "stars",
         "order": "desc",
-        "per_page": 20
+        "per_page": 30,
     }
     response = requests.get(SEARCH_URL, headers=headers, params=params)
     items = response.json().get("items", [])
@@ -28,15 +32,20 @@ def fetch_github_plugins():
         name = item["full_name"]
         desc = item.get("description", "").strip()
         url = item["html_url"]
-        results.append(f"- [{name}]({url}) - {desc}")
+        line = f"- [{name}]({url}) - {desc} [{tag}]"
+        results.append(line)
     return results
 
-def update_readme(plugins):
+def update_readme(entries):
     with open("README.md", "w") as f:
         header = README_HEADER.format(date=datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"))
         f.write(header + "\n")
-        f.write("\n".join(plugins))
+        for entry in sorted(set(entries)):
+            f.write(entry + "\n")
 
 if __name__ == "__main__":
-    plugins = fetch_github_plugins()
-    update_readme(plugins)
+    all_entries = []
+    for tag, query in QUERIES.items():
+        entries = fetch_repos(tag, query)
+        all_entries.extend(entries)
+    update_readme(all_entries)
