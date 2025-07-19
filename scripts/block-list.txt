@@ -6,3 +6,5 @@ AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin
 NimaNzrii/comfyui-photoshop
 WPeace-HcH/WPeChatGPT
 isekaidev/stable.art
+tuneflow/tuneflow-py
+royshil/obs-localvocal
