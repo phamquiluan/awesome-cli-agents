@@ -59,7 +59,7 @@ def generate_autosection(entries):
     return section
 
 def update_readme(entries):
-    with open(readme_path, "r", encoding="utf-8") as f:
+    with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
 
     new_auto = f"{MARKER_START}\n{generate_autosection(entries)}\n{MARKER_END}"
