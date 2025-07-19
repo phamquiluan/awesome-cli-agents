@@ -1,3 +1,5 @@
 gege-circle/.github
 cirosantilli/china-dictatorship
 LemonIT66/idea_activate
+CasterWx/AntzOS
+AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin
