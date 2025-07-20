@@ -34,7 +34,15 @@ def fetch_repos(tag, query, blocked):
         "per_page": 30,
     }
     resp = requests.get(SEARCH_URL, headers=HEADERS, params=params)
-    items = resp.json().get("items", [])
+    if resp.status_code != 200:
+        print(f"API request failed with status {resp.status_code}: {resp.text}")
+        return []
+    
+    try:
+        items = resp.json().get("items", [])
+    except requests.exceptions.JSONDecodeError:
+        print(f"Failed to parse JSON response: {resp.text}")
+        return []
     results = []
 
     for item in items:
@@ -42,7 +50,7 @@ def fetch_repos(tag, query, blocked):
         if full_name in blocked:
             continue  # Skip blocked repositories
 
-        desc = item.get("description", "").strip().replace("\n", " ")
+        desc = (item.get("description") or "").strip().replace("\n", " ")
         url = item["html_url"]
         stars = item.get("stargazers_count", 0)
         star_str = format_star_count(stars)
