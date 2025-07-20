@@ -18,3 +18,4 @@ mahaloz/DAILA
 marcusbuffett/command-line-chess
 nhaouari/obsidian-textgenerator-plugin
 your-papa/obsidian-Smart2Brain
+phodal/understand-prompt
