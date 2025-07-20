@@ -129,8 +129,11 @@ def fetch_repo_details(full_name):
         print(f"Failed to parse JSON for {full_name}")
         return None
 
-def merge_and_sort_repos(existing_repos, new_repos):
+def merge_and_sort_repos(existing_repos, new_repos, blocklist=None):
     """Merge existing and new repositories, prioritizing new data, and sort by updated_at."""
+    if blocklist is None:
+        blocklist = set()
+    
     # Create a dictionary to store all repositories
     all_repos = {}
     api_throttled = False
@@ -169,7 +172,10 @@ def merge_and_sort_repos(existing_repos, new_repos):
                              key=lambda x: x.get('updated_at', ''), 
                              reverse=True)
     
-    return sorted_repos
+    # Filter out blocklisted repositories
+    filtered_repos = [repo for repo in sorted_repos if repo['full_name'] not in blocklist]
+    
+    return filtered_repos
 
 def generate_autosection(repos):
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
@@ -208,7 +214,7 @@ if __name__ == "__main__":
     print(f"Found {len(new_repos)} new repositories from search")
     
     # Merge existing and new repositories, sort by updated_at
-    all_repos = merge_and_sort_repos(existing_repos, new_repos)
+    all_repos = merge_and_sort_repos(existing_repos, new_repos, blocklist)
     print(f"Total repositories after merge: {len(all_repos)}")
     
     # Only update README if we have repositories
