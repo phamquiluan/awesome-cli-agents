@@ -109,7 +109,10 @@ def fetch_repo_details(full_name):
     url = f"https://api.github.com/repos/{full_name}"
     resp = requests.get(url, headers=HEADERS)
     
-    if resp.status_code != 200:
+    if resp.status_code in [403, 429]:  # Rate limiting or forbidden
+        print(f"API throttling detected for {full_name}: {resp.status_code}")
+        return None
+    elif resp.status_code != 200:
         print(f"Failed to fetch details for {full_name}: {resp.status_code}")
         return None
     
@@ -130,6 +133,7 @@ def merge_and_sort_repos(existing_repos, new_repos):
     """Merge existing and new repositories, prioritizing new data, and sort by updated_at."""
     # Create a dictionary to store all repositories
     all_repos = {}
+    api_throttled = False
     
     # Add existing repositories, fetch their updated_at if needed
     for full_name, repo_data in existing_repos.items():
@@ -144,15 +148,26 @@ def merge_and_sort_repos(existing_repos, new_repos):
                 'star_str': format_star_count(details['stars']),
                 'updated_at': details['updated_at']
             }
+        else:
+            # If fetch failed, mark as throttled and stop trying
+            api_throttled = True
+            print(f"API error fetching details for {full_name}, falling back to star sorting")
+            break
     
     # Add new repositories (these will override existing ones if there are duplicates)
     for repo in new_repos:
         all_repos[repo['full_name']] = repo
     
-    # Sort by updated_at (most recent first)
-    sorted_repos = sorted(all_repos.values(), 
-                         key=lambda x: x.get('updated_at', ''), 
-                         reverse=True)
+    # Sort by updated_at if we got the data, otherwise sort by stars
+    if api_throttled:
+        print("API throttling detected, sorting by stars instead of updated time")
+        sorted_repos = sorted(all_repos.values(), 
+                             key=lambda x: x.get('stars', 0), 
+                             reverse=True)
+    else:
+        sorted_repos = sorted(all_repos.values(), 
+                             key=lambda x: x.get('updated_at', ''), 
+                             reverse=True)
     
     return sorted_repos
 
