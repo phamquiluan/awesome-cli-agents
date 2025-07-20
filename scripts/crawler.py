@@ -62,7 +62,7 @@ def format_star_count(stars):
 def fetch_repos(tag, query, blocked):
     params = {
         "q": query,
-        "sort": "updated",  # Sort by last updated instead of stars
+        "sort": "stars",
         "order": "desc",
         "per_page": 30,
     }
