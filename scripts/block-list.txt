@@ -1,3 +1,4 @@
+logancyang/obsidian-copilot
 openchatai/copilot
 0xJacky/nginx-ui
 assistant-ui/assistant-ui
