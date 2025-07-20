@@ -42,6 +42,7 @@ def fetch_repos(tag, query, blocked):
         if full_name in blocked:
             continue  # Skip blocked repositories
 
+        print(f"{item.get('description')}")
         desc = item.get("description", full_name).strip().replace("\n", " ")
         url = item["html_url"]
         stars = item.get("stargazers_count", 0)
