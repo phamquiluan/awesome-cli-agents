@@ -9,6 +9,7 @@ BLOCKLIST_FILE = os.path.join(os.path.dirname(__file__), "block-list.txt")
 
 QUERIES = {
     "Vim/Neovim": "vim OR neovim ai plugin stars:>10",
+    "Copilot": "vim OR terminal OR cli copilot stars:>10",
     "Terminal": "ai terminal cli OR shell OR zsh OR bash stars:>10",
 }
 
