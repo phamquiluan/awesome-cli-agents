@@ -82,4 +82,9 @@ if __name__ == "__main__":
     all_entries = []
     for tag, query in QUERIES.items():
         all_entries += fetch_repos(tag, query, blocklist)
-    update_readme(all_entries)
+    
+    # Only update README if we have entries to avoid overwriting with empty content
+    if all_entries:
+        update_readme(all_entries)
+    else:
+        print("No repositories found or API requests failed. README not updated.")
