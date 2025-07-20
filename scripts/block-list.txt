@@ -1,3 +1,4 @@
+openchatai/copilot
 0xJacky/nginx-ui
 assistant-ui/assistant-ui
 e2b-dev/llm-code-interpreter
