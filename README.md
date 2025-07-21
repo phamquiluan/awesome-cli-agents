@@ -3,11 +3,11 @@
 > Curated list of tools and plugins that help you use AI in **Vim, Neovim**, and the **Terminal**.
 
 <!-- AUTO-GENERATED-START -->
-_Last updated: 2025-07-20 15:52 UTC_
+_Last updated: 2025-07-21 01:20 UTC_
 
 ## 🚀 AI Tools for Vim, Neovim, and Terminal
 
-- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI & Cluely (And other Open Sourced) System Prompts, Tools & AI Models. [Copilot] (69k⭐)
+- [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI, Cluely & Orchids.app (And other Open Sourced) System Prompts, Tools & AI Models. [Copilot] (69k⭐)
 - [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. [Terminal] (61k⭐)
 - [chatboxai/chatbox](https://github.com/chatboxai/chatbox) - User-friendly Desktop Client App for AI Models/LLMs (GPT, Claude, Gemini, Ollama...) [Copilot] (35k⭐)
 - [Aider-AI/aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal [Terminal] (35k⭐)
@@ -45,14 +45,14 @@ _Last updated: 2025-07-20 15:52 UTC_
 - [Robitx/gp.nvim](https://github.com/Robitx/gp.nvim) - Gp.nvim (GPT prompt) Neovim AI plugin: ChatGPT sessions & Instructable text/code operations & Speech to text [OpenAI, Ollama, Anthropic, ..] [Vim/Neovim] (1k⭐)
 - [NitroRCr/AIaW](https://github.com/NitroRCr/AIaW) - AI as Workspace - An elegant AI chat client. Full-featured, lightweight. Support multiple workspaces, plugin system, cross-platform, local first + real-time cloud sync, Artifacts, MCP | 更好的 AI 客户端 [Vim/Neovim] (1k⭐)
 - [EmbraceAGI/Awesome-AI-GPTs](https://github.com/EmbraceAGI/Awesome-AI-GPTs) - Awesome AI GPTs, OpenAI GPTs, GPT-4, ChatGPT, GPTs, Prompts, plugins, Prompts leaking [Vim/Neovim] (1k⭐)
+- [chaterm/Chaterm](https://github.com/chaterm/Chaterm) - Smart, agentic, security AI terminal for devops and cloud practitioners [Terminal] (1k⭐)
 - [susiai/susi_shell](https://github.com/susiai/susi_shell) - This suite of tools enables users to interact with AI services directly from their terminal. [Terminal] (1k⭐)
-- [chaterm/Chaterm](https://github.com/chaterm/Chaterm) - Smart, agentic, security AI terminal for devops and cloud practitioners [Terminal] (999⭐)
 - [madox2/vim-ai](https://github.com/madox2/vim-ai) - AI-powered code assistant for Vim. OpenAI and ChatGPT plugin for Vim and Neovim. [Vim/Neovim] (980⭐)
-- [alvinunreal/tmuxai](https://github.com/alvinunreal/tmuxai) - AI-Powered, Non-Intrusive Terminal Assistant [Terminal] (944⭐)
+- [alvinunreal/tmuxai](https://github.com/alvinunreal/tmuxai) - AI-Powered, Non-Intrusive Terminal Assistant [Terminal] (945⭐)
 - [ekkinox/yai](https://github.com/ekkinox/yai) - Your AI powered terminal assistant. [Terminal] (810⭐)
 - [synacktiv/HopLa](https://github.com/synacktiv/HopLa) - HopLa Burp Suite Extender plugin -  Brings AI capabilities, autocompletion support, and a set of useful payloads to Burp Suite [Vim/Neovim] (757⭐)
 - [briansunter/logseq-plugin-gpt3-openai](https://github.com/briansunter/logseq-plugin-gpt3-openai) - A plugin for GPT-3 AI assisted note taking in Logseq [Vim/Neovim] (741⭐)
-- [slowmist/MCP-Security-Checklist](https://github.com/slowmist/MCP-Security-Checklist) - A comprehensive security checklist for MCP-based AI tools. Built by SlowMist to safeguard LLM plugin ecosystems. [Vim/Neovim] (654⭐)
+- [slowmist/MCP-Security-Checklist](https://github.com/slowmist/MCP-Security-Checklist) - A comprehensive security checklist for MCP-based AI tools. Built by SlowMist to safeguard LLM plugin ecosystems. [Vim/Neovim] (655⭐)
 - [gridaco/assistant](https://github.com/gridaco/assistant) - 🤖  Bring your Figma design & development pipeline to the next level - with design to code, in-design-content-management, component management, tools for faster design [Vim/Neovim] (597⭐)
 - [toolkit-ai/toolkit-ai](https://github.com/toolkit-ai/toolkit-ai) - AI-agents that automatically generate and use Langchain Tools and ChatGPT plugins [Vim/Neovim] (537⭐)
 - [turing-machines/mentals-ai](https://github.com/turing-machines/mentals-ai) - No code AI agents [Terminal] (436⭐)
