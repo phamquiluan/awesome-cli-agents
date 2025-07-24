@@ -1,4 +1,4 @@
-# Awesome Vim/Terminal AI Agents 🧠📝
+# Awesome CLI/Vim/Terminal AI Agents 🧠📝
 
 > Curated list of tools and plugins that help you use AI in **Vim, Neovim**, and the **Terminal**.
 
