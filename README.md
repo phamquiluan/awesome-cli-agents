@@ -3,33 +3,26 @@
 > Curated list of tools and plugins that help you use AI in **Vim, Neovim**, and the **Terminal**.
 
 <!-- AUTO-GENERATED-START -->
-_Last updated: 2025-09-16 01:04 UTC_
+_Last updated: 2025-09-16 06:42 UTC_
 
 ## 🚀 AI Tools for Vim, Neovim, and Terminal
 
 - [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. [Terminal] (75k⭐)
-- [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) - Free universal database tool and SQL client [Copilot] (45k⭐)
 - [Aider-AI/aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal [Terminal] (37k⭐)
-- [chatboxai/chatbox](https://github.com/chatboxai/chatbox) - User-friendly Desktop Client App for AI Models/LLMs (GPT, Claude, Gemini, Ollama...) [Copilot] (36k⭐)
 - [continuedev/continue](https://github.com/continuedev/continue) - ⏩ Ship faster with Continuous AI. Build and run custom agents across your IDE, terminal, and CI [Terminal] (28k⭐)
 - [voideditor/void](https://github.com/voideditor/void) -  [Copilot] (26k⭐)
 - [sst/opencode](https://github.com/sst/opencode) - AI coding agent, built for the terminal. [Terminal] (23k⭐)
 - [github/copilot-docs](https://github.com/github/copilot-docs) - Documentation for GitHub Copilot [Copilot] (23k⭐)
 - [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) - React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic last-mile 🪁 [Copilot] (22k⭐)
 - [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - A list of AI autonomous agents [Copilot] (22k⭐)
-- [kestra-io/kestra](https://github.com/kestra-io/kestra) - :zap: Universal Workflow Orchestration Platform — Code in any language, run anywhere. 900+ plugins for data, infrastructure, and AI automation. [Vim/Neovim] (21k⭐)
-- [github/spec-kit](https://github.com/github/spec-kit) - 💫 Toolkit to help you get started with Spec-Driven Development [Copilot] (18k⭐)
 - [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) - FauxPilot - an open-source alternative to GitHub Copilot server [Copilot] (14k⭐)
 - [plandex-ai/plandex](https://github.com/plandex-ai/plandex) - Open source AI coding agent. Designed for large projects and real world tasks. [Terminal] (14k⭐)
 - [charmbracelet/crush](https://github.com/charmbracelet/crush) - The glamourous AI coding agent for your favourite terminal 💘 [Terminal] (12k⭐)
 - [github/copilot.vim](https://github.com/github/copilot.vim) - Neovim plugin for GitHub Copilot [Copilot] (10k⭐)
-- [e2b-dev/E2B](https://github.com/e2b-dev/E2B) - Open-source, secure environment with real-world tools for enterprise-grade agents. [Copilot] (9k⭐)
 - [opencode-ai/opencode](https://github.com/opencode-ai/opencode) - A powerful AI coding agent. Built for the terminal. [Terminal] (9k⭐)
-- [dice2o/BingGPT](https://github.com/dice2o/BingGPT) - Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux) [Copilot] (9k⭐)
 - [microsoft/vscode-copilot-chat](https://github.com/microsoft/vscode-copilot-chat) - Copilot Chat extension for VS Code [Copilot] (8k⭐)
 - [intitni/CopilotForXcode](https://github.com/intitni/CopilotForXcode) - The first GitHub Copilot, Codeium and ChatGPT Xcode Source Editor Extension [Copilot] (8k⭐)
 - [lencx/Noi](https://github.com/lencx/Noi) - 🚀 Power Your World with AI - Explore, Extend, Empower. [Copilot] (7k⭐)
-- [microsoft/UFO](https://github.com/microsoft/UFO) - The Desktop AgentOS. [Copilot] (7k⭐)
 - [github/awesome-copilot](https://github.com/github/awesome-copilot) - Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot. [Copilot] (7k⭐)
 - [microsoft/Mastering-GitHub-Copilot-for-Paired-Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming) - A multi-module course teaching everything you need to know about using GitHub Copilot as an AI Peer Programming resource. [Copilot] (6k⭐)
 - [idosal/git-mcp](https://github.com/idosal/git-mcp) - Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project [Copilot] (6k⭐)
@@ -45,7 +38,6 @@ _Last updated: 2025-09-16 01:04 UTC_
 - [aandrew-me/tgpt](https://github.com/aandrew-me/tgpt) - AI Chatbots in terminal without needing API keys [Terminal] (2k⭐)
 - [semanser/codel](https://github.com/semanser/codel) - ✨ Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor. [Terminal] (2k⭐)
 - [darrenburns/elia](https://github.com/darrenburns/elia) - A snappy, keyboard-centric terminal user interface for interacting with large language models. Chat with ChatGPT, Claude, Llama 3, Phi 3, Mistral, Gemma and more. [Terminal] (2k⭐)
-- [papersgpt/papersgpt-for-zotero](https://github.com/papersgpt/papersgpt-for-zotero) - A powerful Zotero AI and MCP plugin with ChatGPT, Gemini, Claude, Grok, DeepSeek, OpenRouter, Kimi, GLM, SiliconFlow, GPT-oss, Gemma 3, Qwen 3 [Vim/Neovim] (1k⭐)
 - [zombieyang/sd-ppp](https://github.com/zombieyang/sd-ppp) - A Photoshop AI plugin [Vim/Neovim] (1k⭐)
 - [superagent-ai/grok-cli](https://github.com/superagent-ai/grok-cli) - An open-source AI agent that brings the power of Grok directly into your terminal. [Terminal] (1k⭐)
 - [tom-doerr/zsh_codex](https://github.com/tom-doerr/zsh_codex) - This is a ZSH plugin that enables you to use OpenAI's Codex AI in the command line. [Vim/Neovim] (1k⭐)
@@ -62,7 +54,6 @@ _Last updated: 2025-09-16 01:04 UTC_
 - [synacktiv/HopLa](https://github.com/synacktiv/HopLa) - HopLa Burp Suite Extender plugin -  Brings AI capabilities, autocompletion support, and a set of useful payloads to Burp Suite [Vim/Neovim] (776⭐)
 - [briansunter/logseq-plugin-gpt3-openai](https://github.com/briansunter/logseq-plugin-gpt3-openai) - A plugin for GPT-3 AI assisted note taking in Logseq [Vim/Neovim] (740⭐)
 - [slowmist/MCP-Security-Checklist](https://github.com/slowmist/MCP-Security-Checklist) - A comprehensive security checklist for MCP-based AI tools. Built by SlowMist to safeguard LLM plugin ecosystems. [Vim/Neovim] (726⭐)
-- [gridaco/assistant](https://github.com/gridaco/assistant) - 🤖  Bring your Figma design & development pipeline to the next level - with design to code, in-design-content-management, component management, tools for faster design [Vim/Neovim] (603⭐)
 - [turing-machines/mentals-ai](https://github.com/turing-machines/mentals-ai) - No code AI agents [Terminal] (444⭐)
 - [getsavvyinc/savvy-cli](https://github.com/getsavvyinc/savvy-cli) - Automatically capture and surface your team's tribal knowledge [Terminal] (418⭐)
 <!-- AUTO-GENERATED-END -->
