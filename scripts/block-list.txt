@@ -1,5 +1,13 @@
 logancyang/obsidian-copilot
 openchatai/copilot
+dbeaver/dbeaver
+kestra-io/kestra
+github/spec-kit
+e2b-dev/E2B
+dice2o/BingGPT
+microsoft/UFO
+papersgpt/papersgpt-for-zotero
+chatboxai/chatbox
 0xJacky/nginx-ui
 assistant-ui/assistant-ui
 e2b-dev/llm-code-interpreter
