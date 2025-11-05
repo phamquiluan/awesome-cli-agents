@@ -3,14 +3,14 @@
 > Curated list of tools and plugins that help you use AI in **Vim, Neovim**, and the **Terminal**.
 
 <!-- AUTO-GENERATED-START -->
-_Last updated: 2025-11-04 01:09 UTC_
+_Last updated: 2025-11-05 01:11 UTC_
 
 ## 🚀 AI Tools for Vim, Neovim, and Terminal
 
 - [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal. [Terminal] (81k⭐)
 - [Aider-AI/aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal [Terminal] (38k⭐)
 - [sst/opencode](https://github.com/sst/opencode) - The AI coding agent built for the terminal. [Terminal] (31k⭐)
-- [continuedev/continue](https://github.com/continuedev/continue) - ⏩ Ship faster with Continuous AI. The future of coding isn't writing more code. It's delegating the boring parts, so you can build the interesting stuff [Terminal] (29k⭐)
+- [continuedev/continue](https://github.com/continuedev/continue) - ⏩ Ship faster with Continuous AI. Open-source CLI that can be used in TUI mode as a coding agent or Headless mode to run background agents [Terminal] (29k⭐)
 - [voideditor/void](https://github.com/voideditor/void) -  [Copilot] (27k⭐)
 - [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - A list of AI autonomous agents [Copilot] (23k⭐)
 - [github/copilot-docs](https://github.com/github/copilot-docs) - Documentation for GitHub Copilot [Copilot] (23k⭐)
@@ -38,7 +38,7 @@ _Last updated: 2025-11-04 01:09 UTC_
 - [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) - AI agent microservice [Vim/Neovim] (2k⭐)
 - [semanser/codel](https://github.com/semanser/codel) - ✨ Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor. [Terminal] (2k⭐)
 - [darrenburns/elia](https://github.com/darrenburns/elia) - A snappy, keyboard-centric terminal user interface for interacting with large language models. Chat with ChatGPT, Claude, Llama 3, Phi 3, Mistral, Gemma and more. [Terminal] (2k⭐)
-- [superagent-ai/grok-cli](https://github.com/superagent-ai/grok-cli) - An open-source AI agent that brings the power of Grok directly into your terminal. [Terminal] (1k⭐)
+- [superagent-ai/grok-cli](https://github.com/superagent-ai/grok-cli) - An open-source AI agent that brings the power of Grok directly into your terminal. [Terminal] (2k⭐)
 - [AAswordman/Operit](https://github.com/AAswordman/Operit) - The most powerful AI agent and AI chat software on Android [Terminal] (1k⭐)
 - [zombieyang/sd-ppp](https://github.com/zombieyang/sd-ppp) - A Photoshop AI plugin [Vim/Neovim] (1k⭐)
 - [aws/amazon-q-developer-cli](https://github.com/aws/amazon-q-developer-cli) - ✨ Agentic chat experience in your terminal. Build applications using natural language. [Terminal] (1k⭐)
@@ -50,10 +50,10 @@ _Last updated: 2025-11-04 01:09 UTC_
 - [EmbraceAGI/Awesome-AI-GPTs](https://github.com/EmbraceAGI/Awesome-AI-GPTs) - Awesome AI GPTs, OpenAI GPTs, GPT-4, ChatGPT, GPTs, Prompts, plugins, Prompts leaking [Vim/Neovim] (1k⭐)
 - [madox2/vim-ai](https://github.com/madox2/vim-ai) - AI-powered code assistant for Vim. OpenAI and ChatGPT plugin for Vim and Neovim. [Vim/Neovim] (1k⭐)
 - [susiai/susi_shell](https://github.com/susiai/susi_shell) - This suite of tools enables users to interact with AI services directly from their terminal. [Terminal] (1k⭐)
-- [ekkinox/yai](https://github.com/ekkinox/yai) - Your AI powered terminal assistant. [Terminal] (843⭐)
-- [synacktiv/HopLa](https://github.com/synacktiv/HopLa) - HopLa Burp Suite Extender plugin -  Brings AI capabilities, autocompletion support, and a set of useful payloads to Burp Suite [Vim/Neovim] (787⭐)
+- [ekkinox/yai](https://github.com/ekkinox/yai) - Your AI powered terminal assistant. [Terminal] (844⭐)
+- [synacktiv/HopLa](https://github.com/synacktiv/HopLa) - HopLa Burp Suite Extender plugin -  Brings AI capabilities, autocompletion support, and a set of useful payloads to Burp Suite [Vim/Neovim] (788⭐)
 - [slowmist/MCP-Security-Checklist](https://github.com/slowmist/MCP-Security-Checklist) - A comprehensive security checklist for MCP-based AI tools. Built by SlowMist to safeguard LLM plugin ecosystems. [Vim/Neovim] (764⭐)
 - [briansunter/logseq-plugin-gpt3-openai](https://github.com/briansunter/logseq-plugin-gpt3-openai) - A plugin for GPT-3 AI assisted note taking in Logseq [Vim/Neovim] (741⭐)
-- [specstoryai/getspecstory](https://github.com/specstoryai/getspecstory) - Install our local first extensions for favorite AI IDE or Terminal Agent. Sync your conversations to the cloud. File issues and requests. [Terminal] (698⭐)
-- [generalaction/emdash](https://github.com/generalaction/emdash) - Emdash is an orchestration layer for running multiple coding agents in parallel in isolated Git worktrees [Terminal] (624⭐)
+- [specstoryai/getspecstory](https://github.com/specstoryai/getspecstory) - Install our local first extensions for favorite AI IDE or Terminal Agent. Sync your conversations to the cloud. File issues and requests. [Terminal] (699⭐)
+- [generalaction/emdash](https://github.com/generalaction/emdash) - Emdash is an orchestration layer for running multiple coding agents in parallel in isolated Git worktrees [Terminal] (627⭐)
 <!-- AUTO-GENERATED-END -->
