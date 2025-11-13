@@ -1,5 +1,13 @@
 logancyang/obsidian-copilot
 openchatai/copilot
+fish-shell/fish-shell
+jesseduffield/lazygit
+sxyazi/yazi
+ghostty-org/ghostty
+alacritty/alacritty
+httpie/cli
+tqdm/tqdm
+kovidgoyal/kitty
 dbeaver/dbeaver
 kestra-io/kestra
 github/spec-kit
