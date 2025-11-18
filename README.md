@@ -3,7 +3,7 @@
 > Curated list of tools and plugins that help you use AI in **Vim, Neovim**, and the **Terminal**.
 
 <!-- AUTO-GENERATED-START -->
-_Last updated: 2025-11-17 01:11 UTC_
+_Last updated: 2025-11-18 01:10 UTC_
 
 ## 🚀 AI Tools for Vim, Neovim, and Terminal
 
@@ -40,8 +40,8 @@ _Last updated: 2025-11-17 01:11 UTC_
 - [X-PLUG/MobileAgent](https://github.com/X-PLUG/MobileAgent) - Mobile-Agent: The Powerful GUI Agent Family [Copilot] (6k⭐)
 - [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver) - A code-first agent framework for seamlessly planning and executing data analytics tasks. [Copilot] (5k⭐)
 - [olimorris/codecompanion.nvim](https://github.com/olimorris/codecompanion.nvim) - ✨ AI Coding, Vim Style [Copilot] (5k⭐)
-- [github/CopilotForXcode](https://github.com/github/CopilotForXcode) - AI coding assistant for Xcode [Copilot] (5k⭐)
 - [github/copilot-cli](https://github.com/github/copilot-cli) - GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal. [Terminal] (5k⭐)
+- [github/CopilotForXcode](https://github.com/github/CopilotForXcode) - AI coding assistant for Xcode [Copilot] (5k⭐)
 - [smtg-ai/claude-squad](https://github.com/smtg-ai/claude-squad) - Manage multiple AI terminal agents like Claude Code, Aider, Codex, OpenCode, and Amp. [Terminal] (5k⭐)
 - [gptme/gptme](https://github.com/gptme/gptme) - Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web, vision. [Terminal] (4k⭐)
 - [twinnydotdev/twinny](https://github.com/twinnydotdev/twinny) - The most no-nonsense, locally or API-hosted AI code completion plugin for Visual Studio Code - like GitHub Copilot but 100% free. [Vim/Neovim] (3k⭐)
@@ -53,17 +53,17 @@ _Last updated: 2025-11-17 01:11 UTC_
 - [Danau5tin/multi-agent-coding-system](https://github.com/Danau5tin/multi-agent-coding-system) - Reached #13 on Stanford's Terminal Bench leaderboard. Orchestrator, explorer & coder agents working together with intelligent context sharing. [Terminal] (1k⭐)
 - [EmbraceAGI/Awesome-AI-GPTs](https://github.com/EmbraceAGI/Awesome-AI-GPTs) - Awesome AI GPTs, OpenAI GPTs, GPT-4, ChatGPT, GPTs, Prompts, plugins, Prompts leaking [Vim/Neovim] (1k⭐)
 - [madox2/vim-ai](https://github.com/madox2/vim-ai) - AI-powered code assistant for Vim. OpenAI and ChatGPT plugin for Vim and Neovim. [Vim/Neovim] (1k⭐)
-- [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) - A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒ [Terminal] (879⭐)
+- [Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder) - A beautiful local-first coding agent running in your terminal - built by the community for the community ⚒ [Terminal] (881⭐)
 - [synacktiv/HopLa](https://github.com/synacktiv/HopLa) - HopLa Burp Suite Extender plugin -  Brings AI capabilities, autocompletion support, and a set of useful payloads to Burp Suite [Vim/Neovim] (790⭐)
-- [slowmist/MCP-Security-Checklist](https://github.com/slowmist/MCP-Security-Checklist) - A comprehensive security checklist for MCP-based AI tools. Built by SlowMist to safeguard LLM plugin ecosystems. [Vim/Neovim] (771⭐)
-- [briansunter/logseq-plugin-gpt3-openai](https://github.com/briansunter/logseq-plugin-gpt3-openai) - A plugin for GPT-3 AI assisted note taking in Logseq [Vim/Neovim] (743⭐)
-- [generalaction/emdash](https://github.com/generalaction/emdash) - Emdash is an orchestration layer for running multiple coding agents in parallel in isolated Git worktrees [Terminal] (654⭐)
+- [slowmist/MCP-Security-Checklist](https://github.com/slowmist/MCP-Security-Checklist) - A comprehensive security checklist for MCP-based AI tools. Built by SlowMist to safeguard LLM plugin ecosystems. [Vim/Neovim] (772⭐)
+- [briansunter/logseq-plugin-gpt3-openai](https://github.com/briansunter/logseq-plugin-gpt3-openai) - A plugin for GPT-3 AI assisted note taking in Logseq [Vim/Neovim] (744⭐)
+- [generalaction/emdash](https://github.com/generalaction/emdash) - Emdash is an orchestration layer for running multiple coding agents in parallel in isolated Git worktrees [Terminal] (657⭐)
 - [rusiaaman/wcgw](https://github.com/rusiaaman/wcgw) - Shell and coding agent on claude desktop app [Terminal] (618⭐)
-- [ovh/shai](https://github.com/ovh/shai) - shai is a coding agent, your pair programming buddy that lives in the terminal. Written in rust with love <3 [Terminal] (458⭐)
+- [ovh/shai](https://github.com/ovh/shai) - shai is a coding agent, your pair programming buddy that lives in the terminal. Written in rust with love <3 [Terminal] (459⭐)
 - [turing-machines/mentals-ai](https://github.com/turing-machines/mentals-ai) - No code AI agents [Terminal] (446⭐)
 - [meysamhadeli/codai](https://github.com/meysamhadeli/codai) - AI coding agent for your terminal. [Terminal] (370⭐)
-- [Danau5tin/terminal-bench-rl](https://github.com/Danau5tin/terminal-bench-rl) - GRPO training code which scales to 32xH100s for long horizon terminal/coding tasks. Base agent is now the top Qwen3 agent on Stanford's TerminalBench leaderboard. [Terminal] (297⭐)
+- [Danau5tin/terminal-bench-rl](https://github.com/Danau5tin/terminal-bench-rl) - GRPO training code which scales to 32xH100s for long horizon terminal/coding tasks. Base agent is now the top Qwen3 agent on Stanford's TerminalBench leaderboard. [Terminal] (300⭐)
 - [dbpunk-labs/octogen](https://github.com/dbpunk-labs/octogen) - Octogen is an Open-Source Code Interpreter Agent Framework [Terminal] (257⭐)
-- [vinhnx/vtcode](https://github.com/vinhnx/vtcode) - VT Code - Semantic Coding Agent in Terminal [Terminal] (254⭐)
-- [sudo-tee/opencode.nvim](https://github.com/sudo-tee/opencode.nvim) - neovim frontend for opencode - a terminal-based AI coding agent [Terminal] (249⭐)
+- [vinhnx/vtcode](https://github.com/vinhnx/vtcode) - VT Code - Semantic Coding Agent in Terminal [Terminal] (257⭐)
+- [sudo-tee/opencode.nvim](https://github.com/sudo-tee/opencode.nvim) - neovim frontend for opencode - a terminal-based AI coding agent [Terminal] (251⭐)
 <!-- AUTO-GENERATED-END -->
