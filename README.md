@@ -62,4 +62,5 @@ _Last updated: 2026-02-20 01:42 UTC_
 - [meysamhadeli/codai](https://github.com/meysamhadeli/codai) - AI coding agent for your terminal. [Terminal] (379⭐)
 - [Danau5tin/terminal-bench-rl](https://github.com/Danau5tin/terminal-bench-rl) - GRPO training code which scales to 32xH100s for long horizon terminal/coding tasks. Base agent is now the top Qwen3 agent on Stanford's TerminalBench leaderboard. [Terminal] (349⭐)
 - [supabitapp/supacode](https://github.com/supabitapp/supacode) - Native terminal coding agents command center. [Terminal] (317⭐)
+- [mantra-hq/mantra-releases](https://github.com/mantra-hq/mantra-releases) - Local-first session time-machine for AI coding tools (Claude Code, Cursor, Windsurf). Snapshot, browse, diff, and restore any past session state. [Terminal] (0⭐)
 <!-- AUTO-GENERATED-END -->
