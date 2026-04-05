@@ -59,4 +59,6 @@ _Last updated: 2026-04-05 01:58 UTC_
 - [sudo-tee/opencode.nvim](https://github.com/sudo-tee/opencode.nvim) - neovim frontend for opencode - a terminal-based AI coding agent [Terminal] (713⭐)
 - [rusiaaman/wcgw](https://github.com/rusiaaman/wcgw) - Shell and coding agent on mcp clients [Terminal] (655⭐)
 - [ovh/shai](https://github.com/ovh/shai) - shai is a coding agent, your pair programming buddy that lives in the terminal. Written in rust with love <3 [Terminal] (594⭐)
+- [sortlist/overloop-cli](https://github.com/sortlist/overloop-cli) - AI-powered outbound engine. Source contacts from 450M+ database, run multi-channel campaigns (email + LinkedIn), enroll prospects. JSON output. [Terminal] (0⭐)
+- [sortlist/signals-cli](https://github.com/sortlist/signals-cli) - Intent signal monitoring for B2B. Track LinkedIn engagement, keyword posters, job changers, funding events. JSON output. [Terminal] (0⭐)
 <!-- AUTO-GENERATED-END -->
