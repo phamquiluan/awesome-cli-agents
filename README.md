@@ -63,4 +63,5 @@ _Last updated: 2026-04-22 02:02 UTC_
 - [rusiaaman/wcgw](https://github.com/rusiaaman/wcgw) - Shell and coding agent on mcp clients [Terminal] (659⭐)
 - [Robitx/gp.nvim](https://github.com/Robitx/gp.nvim) - Gp.nvim (GPT prompt) Neovim AI plugin: ChatGPT sessions & Instructable text/code operations & Speech to text [OpenAI, Ollama, Anthropic, ..] [Vim/Neovim] (1k⭐)
 - [tom-doerr/zsh_codex](https://github.com/tom-doerr/zsh_codex) - This is a ZSH plugin that enables you to use OpenAI's Codex AI in the command line. [Vim/Neovim] (1k⭐)
+- [Octomind](https://github.com/muvon/octomind) - Open-source, model-agnostic AI agent runtime with community-built specialist agents (developer, medical, legal, DevOps), MCP support, and zero-config setup.
 <!-- AUTO-GENERATED-END -->
