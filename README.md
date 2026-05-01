@@ -62,4 +62,5 @@ _Last updated: 2026-05-01 02:34 UTC_
 - [Danau5tin/multi-agent-coding-system](https://github.com/Danau5tin/multi-agent-coding-system) - Reached #13 on Stanford's Terminal Bench leaderboard. Orchestrator, explorer & coder agents working together with intelligent context sharing. [Terminal] (1k⭐)
 - [DeadWaveWave/opencove](https://github.com/DeadWaveWave/opencove) - Your infinite canvas workspace for agents, tasks, knowledge, and research. An infinite canvas for Claude Code, Codex, terminals, tasks, and notes. [Terminal] (1k⭐)
 - [kaplanelad/shellfirm](https://github.com/kaplanelad/shellfirm) - Safety guardrails for ai coding agents and human terminal commands [Terminal] (902⭐)
+- [crabforge/crab-code](https://github.com/crabforge/crab-code) - Rust-native agentic coding CLI supporting any LLM provider. Multi-entry-point architecture (CLI/IDE/Web/Desktop). Apache-2.0 [Terminal] (49⭐)
 <!-- AUTO-GENERATED-END -->
