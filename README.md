@@ -63,5 +63,6 @@ _Last updated: 2026-05-07 02:26 UTC_
 - [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot) - FauxPilot - an open-source alternative to GitHub Copilot server [Copilot] (14k⭐)
 - [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) - AI agent microservice [Vim/Neovim] (3k⭐)
 - [kaplanelad/shellfirm](https://github.com/kaplanelad/shellfirm) - Safety guardrails for ai coding agents and human terminal commands [Terminal] (904⭐)
+- [lucinate-ai/lucinate](https://github.com/lucinate-ai/lucinate) - Terminal-native TUI chat client for AI agents. Connects to OpenClaw gateways, Hermes, and any OpenAI-compatible endpoint (Ollama, vLLM, LM Studio, OpenAI). Features streaming, markdown, tool calls, multi-agent support. [Terminal]
 - [Danau5tin/multi-agent-coding-system](https://github.com/Danau5tin/multi-agent-coding-system) - Reached #13 on Stanford's Terminal Bench leaderboard. Orchestrator, explorer & coder agents working together with intelligent context sharing. [Terminal] (1k⭐)
 <!-- AUTO-GENERATED-END -->
