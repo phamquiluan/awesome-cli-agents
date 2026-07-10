@@ -60,4 +60,5 @@ _Last updated: 2026-07-10 02:28 UTC_
 - [NitroRCr/AIaW](https://github.com/NitroRCr/AIaW) - AI as Workspace - An elegant AI chat client. Full-featured, lightweight. Support multiple workspaces, plugin system, cross-platform, local first + real-time cloud sync, Artifacts, MCP | 更好的 AI 客户端 [Vim/Neovim] (1k⭐)
 - [twinnydotdev/twinny](https://github.com/twinnydotdev/twinny) - The most no-nonsense, locally or API-hosted AI code completion plugin for Visual Studio Code - like GitHub Copilot but 100% free. [Vim/Neovim] (3k⭐)
 - [tom-doerr/zsh_codex](https://github.com/tom-doerr/zsh_codex) - This is a ZSH plugin that enables you to use OpenAI's Codex AI in the command line. [Vim/Neovim] (1k⭐)
+- [Octomind](https://github.com/muvon/octomind) - Open-source, model-agnostic AI agent runtime with community-built specialist agents (developer, medical, legal, DevOps), MCP support, and zero-config setup.
 <!-- AUTO-GENERATED-END -->
