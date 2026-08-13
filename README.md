@@ -46,6 +46,7 @@ _Last updated: 2026-08-13 01:23 UTC_
 - [agent-of-empires/agent-of-empires](https://github.com/agent-of-empires/agent-of-empires) - Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding. [Terminal] (3k⭐)
 - [generalaction/emdash](https://github.com/generalaction/emdash) - Emdash is the Open-Source Agentic Development Environment (🧡 YC W26). Run multiple coding agents in parallel. Use any provider. [Terminal] (5k⭐)
 - [getkimchi/kimchi](https://github.com/getkimchi/kimchi) - Terminal coding agent powered by Kimchi's multi-model orchestration [Terminal] (2k⭐)
+- [AtomicBot-ai/atomic-agent](https://github.com/AtomicBot-ai/atomic-agent) - Local-first CLI and TUI coding agent. Runs open-weight models entirely on your machine, with no account or API key required. 56 built-in tools and MCP support. [Terminal] (1k⭐)
 - [plandex-ai/plandex](https://github.com/plandex-ai/plandex) - Open source AI coding agent. Designed for large projects and real world tasks. [Terminal] (15k⭐)
 - [gptme/gptme](https://github.com/gptme/gptme) - Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top! [Terminal] (4k⭐)
 - [WordPress/agent-skills](https://github.com/WordPress/agent-skills) - Expert-level WordPress knowledge for AI coding assistants - blocks, themes, plugins, and best practices [Vim/Neovim] (2k⭐)
