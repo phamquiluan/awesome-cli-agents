@@ -60,4 +60,5 @@ _Last updated: 2026-08-25 00:55 UTC_
 - [getkimchi/kimchi](https://github.com/getkimchi/kimchi) - Terminal coding agent powered by Kimchi's multi-model orchestration [Terminal] (2k⭐)
 - [zombieyang/sd-ppp](https://github.com/zombieyang/sd-ppp) - A Photoshop AI plugin [Vim/Neovim] (2k⭐)
 - [WordPress/agent-skills](https://github.com/WordPress/agent-skills) - Expert-level WordPress knowledge for AI coding assistants - blocks, themes, plugins, and best practices [Vim/Neovim] (2k⭐)
+- [kolega-ai/kolega-code](https://github.com/kolega-ai/kolega-code) - Terminal coding agent where the model writes its own multi-agent workflows (Gigacode). [Terminal] (15⭐)
 <!-- AUTO-GENERATED-END -->
