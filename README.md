@@ -7,6 +7,7 @@ _Last updated: 2026-08-20 00:53 UTC_
 
 ## 🚀 AI Tools for Vim, Neovim, and Terminal
 
+- [sandbaseai/cli](https://github.com/sandbaseai/cli) - Give your AI agent superpowers. One command. 2,000+ AI models. [Terminal] (22⭐)
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. [Copilot] (118k⭐)
 - [openai/codex](https://github.com/openai/codex) - Lightweight coding agent that runs in your terminal [Terminal] (106k⭐)
 - [stablyai/orca](https://github.com/stablyai/orca) - Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS. [Terminal] (49k⭐)
