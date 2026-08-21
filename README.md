@@ -62,4 +62,5 @@ _Last updated: 2026-08-21 00:57 UTC_
 - [lxf746/any-auto-register](https://github.com/lxf746/any-auto-register) - Auto-register & manage accounts for ChatGPT, Cursor, Kiro, Grok, Windsurf, Trae & 13+ AI platforms · Protocol/browser dual-mode · Plugin-based · One-click Mac/Windows desktop app [Vim/Neovim] (3k⭐)
 - [twinnydotdev/twinny](https://github.com/twinnydotdev/twinny) - The most no-nonsense, locally or API-hosted AI code completion plugin for Visual Studio Code - like GitHub Copilot but 100% free. [Vim/Neovim] (3k⭐)
 - [zombieyang/sd-ppp](https://github.com/zombieyang/sd-ppp) - A Photoshop AI plugin [Vim/Neovim] (2k⭐)
+- [kolega-ai/kolega-code](https://github.com/kolega-ai/kolega-code) - Terminal coding agent where the model writes its own multi-agent workflows (Gigacode). [Terminal] (15⭐)
 <!-- AUTO-GENERATED-END -->
