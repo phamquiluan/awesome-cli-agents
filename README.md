@@ -3,24 +3,24 @@
 > Curated list of tools and plugins that help you use AI in **Vim, Neovim**, and the **Terminal**.
 
 <!-- AUTO-GENERATED-START -->
-_Last updated: 2026-08-24 00:56 UTC_
+_Last updated: 2026-08-25 00:55 UTC_
 
 ## 🚀 AI Tools for Vim, Neovim, and Terminal
 
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. [Copilot] (120k⭐)
-- [openai/codex](https://github.com/openai/codex) - Lightweight coding agent that runs in your terminal [Terminal] (115k⭐)
-- [stablyai/orca](https://github.com/stablyai/orca) - Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS. [Terminal] (51k⭐)
+- [openai/codex](https://github.com/openai/codex) - Lightweight coding agent that runs in your terminal [Terminal] (117k⭐)
+- [stablyai/orca](https://github.com/stablyai/orca) - Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS. [Terminal] (52k⭐)
 - [Hmbown/CodeWhale](https://github.com/Hmbown/CodeWhale) - Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome. [Terminal] (40k⭐)
 - [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) - AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨ [Vim/Neovim] (39k⭐)
 - [wshobson/agents](https://github.com/wshobson/agents) - Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, and Google Antigravity [Copilot] (39k⭐)
 - [github/awesome-copilot](https://github.com/github/awesome-copilot) - Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot. [Copilot] (38k⭐)
 - [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) - DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running. [Terminal] (35k⭐)
-- [herdrdev/herdr](https://github.com/herdrdev/herdr) - the runtime your coding agents live on [Terminal] (31k⭐)
+- [herdrdev/herdr](https://github.com/herdrdev/herdr) - the runtime your coding agents live on [Terminal] (32k⭐)
 - [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - A list of AI autonomous agents [Copilot] (29k⭐)
 - [voideditor/void](https://github.com/voideditor/void) -  [Copilot] (28k⭐)
-- [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) - An open-source AI coding agent that lives in your terminal. [Terminal] (27k⭐)
 - [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) - #1 Persistent memory for AI coding agents based on real-world benchmarks [Copilot] (27k⭐)
-- [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) - ⌥ Coding agent with the IDE wired in [Terminal] (26k⭐)
+- [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) - An open-source AI coding agent that lives in your terminal. [Terminal] (27k⭐)
+- [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) - ⌥ Coding agent with the IDE wired in [Terminal] (27k⭐)
 - [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) - Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability. [Terminal] (26k⭐)
 - [decolua/9router](https://github.com/decolua/9router) - Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits. [Copilot] (26k⭐)
 - [github/copilot-docs](https://github.com/github/copilot-docs) - Documentation for GitHub Copilot [Copilot] (23k⭐)
@@ -60,6 +60,4 @@ _Last updated: 2026-08-24 00:56 UTC_
 - [getkimchi/kimchi](https://github.com/getkimchi/kimchi) - Terminal coding agent powered by Kimchi's multi-model orchestration [Terminal] (2k⭐)
 - [zombieyang/sd-ppp](https://github.com/zombieyang/sd-ppp) - A Photoshop AI plugin [Vim/Neovim] (2k⭐)
 - [WordPress/agent-skills](https://github.com/WordPress/agent-skills) - Expert-level WordPress knowledge for AI coding assistants - blocks, themes, plugins, and best practices [Vim/Neovim] (2k⭐)
-- [AntigmaLabs/ante](https://github.com/AntigmaLabs/ante) - Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. [Terminal] (1k⭐)
-- [timescale/pg-aiguide](https://github.com/timescale/pg-aiguide) - MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code. [Vim/Neovim] (1k⭐)
 <!-- AUTO-GENERATED-END -->
