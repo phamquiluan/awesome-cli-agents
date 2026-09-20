@@ -6,6 +6,7 @@
 _Last updated: 2026-09-20 02:55 UTC_
 
 ## 🚀 AI Tools for Vim, Neovim, and Terminal
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — a single static CLI that records and replays agent–provider traffic.
 
 - [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) - DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running. [Terminal] (35k⭐)
 - [stablyai/orca](https://github.com/stablyai/orca) - Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime. [Terminal] (72k⭐)
