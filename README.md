@@ -6,6 +6,7 @@
 _Last updated: 2026-10-17 02:36 UTC_
 
 ## 🚀 AI Tools for Vim, Neovim, and Terminal
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records the traffic between a coding agent and its model provider into a local trace, then replays it offline from the terminal. [Terminal] (250⭐)
 
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. [Copilot] (136k⭐)
 - [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) - An open-source AI coding agent that lives in your terminal. [Terminal] (28k⭐)
