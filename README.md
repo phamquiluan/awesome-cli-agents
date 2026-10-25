@@ -68,4 +68,5 @@ _Last updated: 2026-10-25 02:48 UTC_
 - [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - DeepSeek Harness 的 Agent Teams 多智能体协作插件，支持多个 AI Agent 组成团队，协同完成复杂任务，实现任务分配、并行执行、成员通信与团队协作。 AgentTeams plugin for DeepSeek Harness [Vim/Neovim] (2k⭐)
 - [WordPress/agent-skills](https://github.com/WordPress/agent-skills) - Expert-level WordPress knowledge for AI coding assistants - blocks, themes, plugins, and best practices [Vim/Neovim] (2k⭐)
 - [zombieyang/sd-ppp](https://github.com/zombieyang/sd-ppp) - A Photoshop AI plugin [Vim/Neovim] (2k⭐)
+- [DoomPay](https://github.com/doomsday-network/doom-pay) - 2-line Stripe-style non-custodial Web3 checkout widget (`pay.js`), HTTP 402 payment wall, and MCP tool server for verifying Layer-1 `DOOM` and Base Mainnet `wDOOM` payments.
 <!-- AUTO-GENERATED-END -->
