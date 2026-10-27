@@ -7,6 +7,7 @@ _Last updated: 2026-10-26 02:46 UTC_
 
 ## 🚀 AI Tools for Vim, Neovim, and Terminal
 
+- [nuanu-ai/agent-payment-node](https://github.com/nuanu-ai/agent-payment-node) - Local x402 payment runtime and stdio MCP tools for AI agents; Apple Silicon macOS and Node 24 only. [Terminal] (0⭐)
 - [Gaurav-Gosain/tuios](https://github.com/Gaurav-Gosain/tuios) - A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account. [Terminal] (6k⭐)
 - [stablyai/orca](https://github.com/stablyai/orca) - Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime. [Terminal] (105k⭐)
 - [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) - Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity. [Copilot] (15k⭐)
