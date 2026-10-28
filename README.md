@@ -69,4 +69,5 @@ _Last updated: 2026-10-28 03:36 UTC_
 - [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - DeepSeek Harness 的 Agent Teams 多智能体协作插件，支持多个 AI Agent 组成团队，协同完成复杂任务，实现任务分配、并行执行、成员通信与团队协作。 AgentTeams plugin for DeepSeek Harness [Vim/Neovim] (2k⭐)
 - [WordPress/agent-skills](https://github.com/WordPress/agent-skills) - Expert-level WordPress knowledge for AI coding assistants - blocks, themes, plugins, and best practices [Vim/Neovim] (2k⭐)
 - [zombieyang/sd-ppp](https://github.com/zombieyang/sd-ppp) - A Photoshop AI plugin [Vim/Neovim] (2k⭐)
+- [777genius/agent-notifications](https://github.com/777genius/agent-notifications) - Desktop task and attention notifications for Claude Code, Codex CLI, OpenCode, Gemini CLI, Cursor CLI, and Qoder. [Terminal] (819⭐)
 <!-- AUTO-GENERATED-END -->
