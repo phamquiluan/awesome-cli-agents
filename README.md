@@ -63,4 +63,5 @@ _Last updated: 2026-10-31 03:42 UTC_
 - [runkids/skillshare](https://github.com/runkids/skillshare) - 📚 Sync skills, agents, MCP, plugins to all AI CLI tools with one command and simplify team sharing. [Vim/Neovim] (2k⭐)
 - [NanmiCoder/dsh-agent-teams](https://github.com/NanmiCoder/dsh-agent-teams) - DeepSeek Harness 的 Agent Teams 多智能体协作插件，支持多个 AI Agent 组成团队，协同完成复杂任务，实现任务分配、并行执行、成员通信与团队协作。 AgentTeams plugin for DeepSeek Harness [Vim/Neovim] (2k⭐)
 - [spotify/portal-ai-plugins](https://github.com/spotify/portal-ai-plugins) -  [Vim/Neovim] (2k⭐)
+- [vostride/agent-qa](https://github.com/vostride/agent-qa) - Natural-language web and mobile app testing through CLI/MCP, with persistent memidex memory, validated self-improvement, and reviewable run evidence. [Terminal] (912⭐)
 <!-- AUTO-GENERATED-END -->
