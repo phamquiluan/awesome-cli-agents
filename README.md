@@ -62,4 +62,5 @@ _Last updated: 2026-11-06 04:43 UTC_
 - [nickjvandyke/opencode.nvim](https://github.com/nickjvandyke/opencode.nvim) - Neovim 🤝 OpenCode in the flow that you already know. [Vim/Neovim] (3k⭐)
 - [fuxicodex/Fuxi](https://github.com/fuxicodex/Fuxi) - FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers. [Terminal] (3k⭐)
 - [cheshire-cat-ai/core](https://github.com/cheshire-cat-ai/core) - AI agent microservice [Vim/Neovim] (3k⭐)
+- [vostride/agent-qa](https://github.com/vostride/agent-qa) - Natural-language web and mobile app testing through CLI/MCP, with persistent memidex memory, validated self-improvement, and reviewable run evidence. [Terminal] (856⭐)
 <!-- AUTO-GENERATED-END -->
