@@ -6,6 +6,7 @@
 _Last updated: 2026-11-07 04:10 UTC_
 
 ## 🚀 AI Tools for Vim, Neovim, and Terminal
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Records the traffic between a coding agent and its model provider into a local trace, then replays it offline from the terminal. [Terminal] (250⭐)
 
 - [1jehuang/jcode](https://github.com/1jehuang/jcode) - High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows [Terminal] (21k⭐)
 - [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. [Copilot] (146k⭐)
